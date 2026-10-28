@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d1b">
+  <meta name="description" content="NV. Civic Lens LK helps people explore public records, understand public spending, and prepare responsible questions using linked official sources.">
+  <title>NV. Civic Lens LK — Public information, made clearer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="NV. Civic Lens LK home" data-i18n-aria-label="homeLabel">
+      <span class="brand-mark">NV.</span>
+      <span class="brand-name">CIVIC LENS <small>LK</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation" data-i18n-aria-label="navigationLabel">
+      <a href="#explore" data-i18n="navExplore">Explore records</a>
+      <a href="#ask" data-i18n="navAsk">Ask for information</a>
+      <a href="#standards" data-i18n="navStandards">Our standards</a>
+    </nav>
+    <div class="header-actions">
+      <label class="sr-only" for="language" data-i18n="languageLabel">Language</label>
+      <select id="language" class="language-select">
+        <option value="en">EN</option><option value="si">සිං</option><option value="ta">தமிழ்</option>
+      </select>
+      <a class="header-cta" href="#explore"><span data-i18n="headerCta">Open the lens</span> <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-grid"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span><span data-i18n="eyebrow">INDEPENDENT · NON-PARTISAN · SOURCE-LED</span></p>
+        <h1 data-i18n="heroTitle">Public information.<br><em>Clearer for everyone.</em></h1>
+        <p class="hero-description" data-i18n="heroBody">Explore official records, understand what they say, and prepare better questions about decisions that affect your community.</p>
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#explore"><span data-i18n="exploreButton">Explore public records</span><span aria-hidden="true">↘</span></a>
+          <a class="button button-quiet" href="#ask" data-i18n="askButton">Prepare an information request</a>
+        </div>
+        <p class="hero-note" data-i18n="heroNote">A civic information project by NV SHARP SOLUTIONS. Not an official government service.</p>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="lens-core"><span>NV.</span><i></i></div>
+        <div class="signal signal-a"><b>01</b><span data-i18n="visualRecord">PUBLIC RECORD</span></div>
+        <div class="signal signal-b"><b>02</b><span data-i18n="visualPlain">PLAIN LANGUAGE</span></div>
+        <div class="signal signal-c"><b>03</b><span data-i18n="visualQuestion">YOUR QUESTION</span></div>
+        <div class="visual-caption" data-i18n="visualCaption">A CLEARER VIEW<br><span>STARTS WITH A SOURCE</span></div>
+      </div>
+      <div class="hero-bottom"><span data-i18n="heroBottomLeft">CITIZEN TOOLKIT · SRI LANKA</span><span>06°55′N 79°51′E</span></div>
+    </section>
+
+    <section class="principle-strip" aria-label="Project principles" data-i18n-aria-label="principlesLabel">
+      <div><span class="principle-number">01</span><span data-i18n="principle1">SOURCE EVERY CLAIM</span></div>
+      <div><span class="principle-number">02</span><span data-i18n="principle2">SHOW WHAT IS UNKNOWN</span></div>
+      <div><span class="principle-number">03</span><span data-i18n="principle3">MAKE CIVIC ACTION EASIER</span></div>
+    </section>
+
+    <section class="start-section section" id="start" aria-labelledby="start-title">
+      <div class="section-heading" data-reveal>
+        <div><p class="eyebrow eyebrow-dark" data-i18n="startEyebrow">A SIMPLE WAY TO BEGIN</p><h2 id="start-title" data-i18n="startTitle">From a source to a better question.</h2></div>
+        <p class="section-intro" data-i18n="startIntro">New here? Follow these three steps at your own pace.</p>
+      </div>
+      <ol class="journey-grid">
+        <li data-reveal><a class="journey-card" href="#explore"><span class="journey-top"><span class="journey-number">01</span><span aria-hidden="true">↗</span></span><h3 data-i18n="start1Title">Find a source</h3><p data-i18n="start1Body">Search the official source shelf and open the original publication.</p><span class="journey-action" data-i18n="navExplore">Explore records</span></a></li>
+        <li data-reveal><a class="journey-card" href="#standards"><span class="journey-top"><span class="journey-number">02</span><span aria-hidden="true">↗</span></span><h3 data-i18n="start2Title">Understand its limits</h3><p data-i18n="start2Body">Separate what is published from what is still unknown.</p><span class="journey-action" data-i18n="navStandards">Our standards</span></a></li>
+        <li data-reveal><a class="journey-card" href="#ask"><span class="journey-top"><span class="journey-number">03</span><span aria-hidden="true">↗</span></span><h3 data-i18n="start3Title">Prepare your question</h3><p data-i18n="start3Body">Draft a focused request, review it, and follow the official process.</p><span class="journey-action" data-i18n="navAsk">Ask for information</span></a></li>
+      </ol>
+    </section>
+
+    <section class="section explore-section" id="explore">
+      <div class="section-heading">
+        <div><p class="eyebrow eyebrow-dark" data-i18n="exploreEyebrow">THE PUBLIC RECORDS DESK</p><h2 data-i18n="exploreTitle">Start with what’s published.</h2></div>
+        <p class="section-intro" data-i18n="exploreIntro">A small, carefully labelled starter shelf of official sources. These documents help you investigate; they do not confirm the status of a specific local project.</p>
+      </div>
+      <div class="record-tools">
+        <label class="record-search" for="record-search"><span aria-hidden="true">⌕</span><input id="record-search" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="Search source titles and descriptions" autocomplete="off"><span class="sr-only" data-i18n="searchLabel">Search public sources</span></label>
+        <div class="record-results"><p class="search-count" id="search-count" aria-live="polite" aria-atomic="true"></p><button type="button" id="reset-search" class="reset-search" hidden data-i18n="resetSearch">Reset search & filters</button></div>
+      </div>
+      <div class="filters" role="group" aria-label="Filter records" data-i18n-aria-label="filtersLabel">
+        <button type="button" class="filter-button active" data-filter="all" aria-pressed="true" aria-controls="record-grid" data-i18n="filterAll">All records <span>03</span></button>
+        <button type="button" class="filter-button" data-filter="budget" aria-pressed="false" aria-controls="record-grid" data-i18n="filterBudget">Budget & spending</button>
+        <button type="button" class="filter-button" data-filter="oversight" aria-pressed="false" aria-controls="record-grid" data-i18n="filterOversight">Public oversight</button>
+        <button type="button" class="filter-button" data-filter="rights" aria-pressed="false" aria-controls="record-grid" data-i18n="filterRights">Information rights</button>
+      </div>
+      <div class="record-grid" id="record-grid">
+        <article class="record-card" data-category="budget">
+          <div class="record-top"><span class="record-type"><i class="type-dot blue"></i><span data-i18n="typeBudget">BUDGET & SPENDING</span></span><span class="record-index">01 / 03</span></div>
+          <div class="record-icon" aria-hidden="true">↗</div>
+          <h3 data-i18n="record1Title">Budget Estimates 2026</h3>
+          <p data-i18n="record1Body">Explore the Ministry of Finance’s published budget estimate documents. Use them to locate allocations and responsible institutions.</p>
+          <details class="source-details"><summary data-i18n="sourceLimits">Read with context</summary><p data-i18n="record1Limit">Use this as a starting point for allocations and institutions. This source card does not establish actual spending or whether a local project is complete.</p></details>
+          <div class="record-meta"><span data-i18n="officialSource">OFFICIAL SOURCE</span><span>·</span><span data-i18n="publishedRecord">PUBLISHED RECORD</span></div>
+          <a class="record-link" href="https://www.treasury.gov.lk/web/budget-estimates/section/budget%20estimates%20-2026" target="_blank" rel="noopener noreferrer" aria-label="Budget Estimates 2026 — opens in a new tab" data-i18n-aria-label="record1Link"><span data-i18n="openSource">Open source</span><span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="record-card" data-category="oversight">
+          <div class="record-top"><span class="record-type"><i class="type-dot cyan"></i><span data-i18n="typeOversight">PUBLIC OVERSIGHT</span></span><span class="record-index">02 / 03</span></div>
+          <div class="record-icon" aria-hidden="true">⌁</div>
+          <h3 data-i18n="record2Title">Committee on Public Accounts</h3>
+          <p data-i18n="record2Body">Read reports published by Parliament’s Committee on Public Accounts, which examines public expenditure with the Auditor-General.</p>
+          <details class="source-details"><summary data-i18n="sourceLimits">Read with context</summary><p data-i18n="record2Limit">Read the original report for its date, scope, and findings. This source card does not determine wrongdoing or the status of a particular project.</p></details>
+          <div class="record-meta"><span data-i18n="officialSource">OFFICIAL SOURCE</span><span>·</span><span data-i18n="publishedRecord">PUBLISHED RECORD</span></div>
+          <a class="record-link" href="https://www.parliament.lk/en/business-of-parliament/committees/658" target="_blank" rel="noopener noreferrer" aria-label="Committee on Public Accounts — opens in a new tab" data-i18n-aria-label="record2Link"><span data-i18n="openSource">Open source</span><span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="record-card" data-category="rights">
+          <div class="record-top"><span class="record-type"><i class="type-dot violet"></i><span data-i18n="typeRights">INFORMATION RIGHTS</span></span><span class="record-index">03 / 03</span></div>
+          <div class="record-icon" aria-hidden="true">◎</div>
+          <h3 data-i18n="record3Title">Right to Information Commission</h3>
+          <p data-i18n="record3Body">Learn how to request public information, what proactive disclosure means, and where to find the Commission’s guidance.</p>
+          <details class="source-details"><summary data-i18n="sourceLimits">Read with context</summary><p data-i18n="record3Limit">Follow the Commission’s guidance for the official process. This site prepares a draft; it does not submit a request or confirm which office holds a record.</p></details>
+          <div class="record-meta"><span data-i18n="officialSource">OFFICIAL SOURCE</span><span>·</span><span data-i18n="publishedRecord">PUBLISHED RECORD</span></div>
+          <a class="record-link" href="https://rticommission.lk/web/index.php?Itemid=111&id=8&lang=en&option=com_content&view=article" target="_blank" rel="noopener noreferrer" aria-label="Right to Information Commission — opens in a new tab" data-i18n-aria-label="record3Link"><span data-i18n="openSource">Open source</span><span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+      <p class="no-results" id="no-results" hidden data-i18n="noResults">No sources match your search. Try another word or category.</p>
+      <div class="source-integrity"><span class="integrity-icon">i</span><p data-i18n="integrityNote"><strong>Read the original.</strong> Civic Lens links to public sources and helps explain them. It does not independently audit spending or determine wrongdoing.</p></div>
+    </section>
+
+    <section class="how-section" id="standards">
+      <div class="how-copy"><p class="eyebrow" data-i18n="standardsEyebrow">HOW WE EARN TRUST</p><h2 data-i18n="standardsTitle">Evidence first.<br><em>People always.</em></h2><p data-i18n="standardsIntro">Civic information only helps when people can see where it came from and understand its limits.</p></div>
+      <div class="standards-list">
+        <div class="standard-row"><span>01</span><div><h3 data-i18n="standard1Title">Every record has a source</h3><p data-i18n="standard1Body">We link to the original public institution, document, and date wherever available.</p></div><b>↗</b></div>
+        <div class="standard-row"><span>02</span><div><h3 data-i18n="standard2Title">Unknown stays unknown</h3><p data-i18n="standard2Body">Missing public data is labelled as missing. We never fill gaps with guesses.</p></div><b>↗</b></div>
+        <div class="standard-row"><span>03</span><div><h3 data-i18n="standard3Title">No party endorsements</h3><p data-i18n="standard3Body">We do not rank parties, candidates, or officials. The same source rules apply to everyone.</p></div><b>↗</b></div>
+        <div class="standard-row"><span>04</span><div><h3 data-i18n="standard4Title">Corrections are welcome</h3><p data-i18n="standard4Body">A public-interest project should make it easy to flag an outdated link or factual error.</p></div><b>↗</b></div>
+      </div>
+    </section>
+
+    <section class="rti-section" id="ask">
+      <div class="rti-copy"><p class="eyebrow eyebrow-dark" data-i18n="rtiEyebrow">YOUR RIGHT TO ASK</p><h2 data-i18n="rtiTitle">Turn a question<br>into a clear request.</h2><p data-i18n="rtiBody">Use this private, in-browser helper to draft a focused request for public information. Review it, then submit it through the official process.</p><a class="text-link" href="https://rticommission.lk/web/index.php?Itemid=111&id=8&lang=en&option=com_content&view=article" target="_blank" rel="noopener noreferrer"><span data-i18n="learnRti">Read the Commission’s guidance</span><span aria-hidden="true">↗</span></a>
+        <div class="request-guide" data-reveal>
+          <h3 data-i18n="requestGuideTitle">A focused request starts with…</h3>
+          <ul><li data-i18n="requestTip1">A record: name the document or information you need.</li><li data-i18n="requestTip2">A scope: include the relevant place, service, or project.</li><li data-i18n="requestTip3">A period: give dates where they help narrow the request.</li></ul>
+          <details class="request-example"><summary data-i18n="exampleLabel">See a writing example</summary><p data-i18n="requestExample">Please provide copies of [record name] relating to [service or project] in [area], for [date range].</p><small data-i18n="exampleNote">Replace the brackets with your own details. This is a writing example, not an official form.</small></details>
+        </div>
+      </div>
+      <div class="request-card" id="rti-form" role="group" aria-label="RTI draft helper" data-i18n-aria-label="helperLabel">
+        <div class="form-heading"><span class="form-step" data-i18n="draftStep">DRAFT / 01</span><span class="privacy-label"><i></i><span data-i18n="privacyLabel">STAYS ON THIS DEVICE</span></span></div>
+        <p class="helper-notice" id="helper-notice"><span lang="en">Enable JavaScript to use the private draft helper. You can still explore the official sources above.</span> <span lang="si">පෞද්ගලික කෙටුම්පත් මෙවලම භාවිතයට JavaScript සක්‍රිය කරන්න. ඉහත නිල මූලාශ්‍ර තවමත් බැලිය හැක.</span> <span lang="ta">தனிப்பட்ட வரைவு உதவியைப் பயன்படுத்த JavaScript ஐ இயக்கவும். மேலே உள்ள அதிகாரப்பூர்வ ஆதாரங்களைத் தொடர்ந்து பார்க்கலாம்.</span></p>
+        <fieldset id="rti-fields" disabled>
+        <legend class="sr-only" data-i18n="helperLabel">RTI draft helper</legend>
+        <label for="office" data-i18n="officeLabel">Public authority or office</label>
+        <input id="office" maxlength="120" placeholder="e.g., Kandy Municipal Council" data-i18n-placeholder="officePlaceholder" autocomplete="off" aria-required="true" aria-describedby="office-error">
+        <p class="field-error" id="office-error" hidden data-i18n="officeRequired">Enter the public authority or office.</p>
+        <label for="topic" data-i18n="topicLabel">What information are you requesting?</label>
+        <textarea id="topic" rows="4" maxlength="1200" placeholder="Ask for a specific record, date range, or project document." data-i18n-placeholder="topicPlaceholder" autocomplete="off" aria-required="true" aria-describedby="topic-hint topic-error"></textarea>
+        <div class="field-meta"><span id="topic-hint" data-i18n="topicHint">Be specific: record, place, and period.</span><span id="topic-count" aria-hidden="true">0 / 1200</span></div>
+        <p class="field-error" id="topic-error" hidden data-i18n="topicRequired">Describe the information you need.</p>
+        <div class="form-actions">
+          <button class="button button-primary generate-button" id="generate-draft" type="button"><span data-i18n="generateButton">Create request draft</span><span aria-hidden="true">↗</span></button>
+          <button class="clear-button" id="clear-draft" type="button" data-i18n="clearButton">Clear entries and draft</button>
+        </div>
+        <p class="form-disclaimer" data-i18n="formDisclaimer">Your entries are processed in your browser. This page does not send or store them.</p>
+        <p class="rti-status" id="rti-status" role="status" aria-live="polite" aria-atomic="true"></p>
+        <div class="draft-output" id="draft-output" hidden role="region" aria-labelledby="draft-heading">
+        <div class="draft-title"><h3 id="draft-heading" tabindex="-1" data-i18n="draftReady">YOUR DRAFT</h3><div class="draft-actions"><button type="button" id="copy-draft" class="copy-button" data-i18n="copyButton" disabled>Copy text</button><button type="button" id="download-draft" class="copy-button" data-i18n="downloadDraft" disabled>Download .txt</button></div></div>
+          <p class="draft-warning" id="draft-warning" hidden data-i18n="draftStale">Your entries or language changed. Create a new draft before copying or downloading.</p>
+          <pre id="draft-text"></pre>
+          <p data-i18n="draftFooter">Review and adapt this draft. The RTI Commission’s official guidance takes precedence.</p>
+        </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <section class="faq-section section" id="questions" aria-labelledby="faq-title">
+      <div class="faq-intro" data-reveal><p class="eyebrow eyebrow-dark" data-i18n="faqEyebrow">BEFORE YOU GO</p><h2 id="faq-title" data-i18n="faqTitle">A few things, made clear.</h2><p data-i18n="faqIntro">Know what this project offers before taking your next step.</p></div>
+      <div class="faq-list" data-reveal>
+        <details><summary data-i18n="faq1Question">Is this an official government website?</summary><p data-i18n="faq1Answer">No. NV. Civic Lens LK is an independent project by NV SHARP SOLUTIONS, created by Navod Ravindu Jayaweera. It is not affiliated with the Government of Sri Lanka, Parliament, or a political party.</p></details>
+        <details><summary data-i18n="faq2Question">Does this site submit an RTI request for me?</summary><p data-i18n="faq2Answer">No. The helper prepares text in your browser. Review the draft and follow the RTI Commission’s official guidance to submit it through the appropriate process.</p></details>
+        <details><summary data-i18n="faq3Question">What happens to what I type?</summary><p data-i18n="faq3Answer">This site does not send or persist your entries. They remain in the page while you work. Clear removes them from this page; it does not erase text you copied or files you downloaded.</p></details>
+        <details><summary data-i18n="faq4Question">Can a source card confirm a project’s status?</summary><p data-i18n="faq4Answer">No. These cards are starting points for official records. Read the original material and its scope. Missing information should remain unknown, rather than being treated as evidence of wrongdoing.</p></details>
+      </div>
+    </section>
+
+    <section class="closing-note">
+      <div class="closing-mark">NV.</div><p data-i18n="closingText">A clearer view of public information is a starting point for stronger civic participation.</p><a href="#top" aria-label="Back to top" data-i18n-aria-label="backToTopLabel">↑</a>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <a class="footer-brand" href="#top">NV. <span>CIVIC LENS LK</span></a>
+    <p data-i18n="footerDisclaimer">Independent civic information demo. Not affiliated with the Government of Sri Lanka, Parliament, or any political party.</p>
+    <div class="footer-credit"><span>© 2026 NV SHARP SOLUTIONS</span><span data-i18n="createdBy">Created by Navod Ravindu Jayaweera</span></div>
+  </footer>
+</body>
+</html>
